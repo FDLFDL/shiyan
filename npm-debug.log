@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   'fdl' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.6
+4 verbose publish [ 'fdl' ]
+5 silly cache add args [ 'fdl', null ]
+6 verbose cache add spec fdl
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: 'fdl',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: 'fdl',
+7 silly cache add   spec: 'F:\\index\\fdl',
+7 silly cache add   type: 'local' }
+8 silly addLocalTarball shasum (computed) 0fd22b8965e7f45dd6c8c3c8e5ab0cb2c3faa189
+9 verbose addTmpTarball F:\index\fdl not in flight; adding
+10 verbose addTmpTarball validating metadata from F:\index\fdl
+11 verbose tar unpack F:\index\fdl
+12 verbose tar unpacking to C:\Users\lhz\AppData\Local\Temp\npm-344-413ae3c2\unpack-cbfe328505c0
+13 silly gentlyRm C:\Users\lhz\AppData\Local\Temp\npm-344-413ae3c2\unpack-cbfe328505c0 is being purged
+14 verbose gentlyRm don't care about contents; nuking C:\Users\lhz\AppData\Local\Temp\npm-344-413ae3c2\unpack-cbfe328505c0
+15 silly gunzTarPerm modes [ '777', '666' ]
+16 error not a package F:\index\fdl
+17 error addLocal Could not install F:\index\fdl
+18 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\lhz\AppData\Local\Temp\npm-344-413ae3c2\unpack-cbfe328505c0\package.json'
+18 verbose stack     at Error (native)
+19 verbose cwd F:\index
+20 error Windows_NT 6.3.9600
+21 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "fdl"
+22 error node v4.2.6
+23 error npm  v2.14.12
+24 error path C:\Users\lhz\AppData\Local\Temp\npm-344-413ae3c2\unpack-cbfe328505c0\package.json
+25 error code ENOENT
+26 error errno -4058
+27 error syscall open
+28 error enoent ENOENT: no such file or directory, open 'C:\Users\lhz\AppData\Local\Temp\npm-344-413ae3c2\unpack-cbfe328505c0\package.json'
+28 error enoent This is most likely not a problem with npm itself
+28 error enoent and is related to npm not being able to find a file.
+29 verbose exit [ -4058, true ]
